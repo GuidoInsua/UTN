@@ -1,0 +1,5 @@
+11:58:45 **** Rebuild of configuration Debug for project 10-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\10-1.o" "..\\src\\10-1.c" 
+gcc -o 10-1.exe "src\\10-1.o" 
+Info: Nothing to build for 10-1

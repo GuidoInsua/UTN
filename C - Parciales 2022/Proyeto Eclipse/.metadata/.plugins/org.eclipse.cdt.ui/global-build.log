@@ -1,0 +1,11 @@
+12:21:08 **** Rebuild of configuration Debug for project Funciones ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesDeBurbujeo.o" "..\\src\\funcionesDeBurbujeo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesMatematicas.o" "..\\src\\funcionesMatematicas.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesDeParidad.o" "..\\src\\funcionesDeParidad.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hola Mundo.o" "..\\src\\Hola Mundo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesContadoras.o" "..\\src\\funcionesContadoras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesDeIngreso.o" "..\\src\\funcionesDeIngreso.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesCadenas.o" "..\\src\\funcionesCadenas.c" 
+gcc -o Funciones.exe "src\\Hola Mundo.o" "src\\funcionesCadenas.o" "src\\funcionesContadoras.o" "src\\funcionesDeBurbujeo.o" "src\\funcionesDeIngreso.o" "src\\funcionesDeParidad.o" "src\\funcionesMatematicas.o" 
+Info: Nothing to build for Funciones
